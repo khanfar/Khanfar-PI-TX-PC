@@ -390,4 +390,12 @@ For issues and feature requests, please use the [GitHub Issues](https://github.c
 This project is licensed under the same terms as rpitx. See the LICENSE file for details.
 
 ---
+sudo apt-get install git build-essential cmake libfftw3-dev
+chmod+x easytest.sh
+sudo ./install.sh
+rm -rf Khanfar-PI-TX-PC
+sudo passwd root
+chmod+x easytest.sh
+---
+
 Developed by KhanfarSystems
